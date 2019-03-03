@@ -1,4 +1,20 @@
+<<<<<<< HEAD
 body{
   background-color: url("gradient_bg.png");
   background-repeat: repeat-x;
 }
+=======
+body {
+  background-color: seashell;
+}
+
+h1 {
+  color: palevioletred;
+}
+h2 {
+  color: mediumvioletred;
+}
+p {
+  color: indigo;
+}
+>>>>>>> 2b3be62a00e6be9c6829442f8d93497de34cd0ad
