@@ -1,0 +1,43 @@
+body {
+/*background-color: #008080;*/
+/*	border: 5px solid white;
+*/	padding-top: 40px;
+padding-right: 30px;
+padding-left: 30px;
+padding-bottom: 275px;
+background: cyan;
+  -webkit-animation: mymove 7s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 7s infinite;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+color: #0287db
+}
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #0287db;
+}
+h3 {
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #0287db;
+}
+p {
+  color: black;
+  font-size: 15px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  padding-right: 200px;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  50% {background-color: #42f4c2;}
+}
+/* Standard syntax */
+@keyframes mymove {
+  50% {background-color: #42f4c2;}
+}
